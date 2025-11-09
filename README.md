@@ -266,6 +266,12 @@ const jhonatan = {
 
 </details>
 
+### 🛠️ Technologies & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=anaconda,androidstudio,autocad,bash,bootstrap,css,cypress,debian,discord,bots,docker,electron,express,figma,firebase,flask,git,github,githubactions,gitlab,gmail,graphql,html,htmx,instagram,js,jquery,kali,linkedin,linux,md,mint,mysql,nodejs,notion,npm,obsidian,pnpm,postgres,postman,powershell,pycharm,py,raspberrypi,react,regex,remix,sqlite,stackoverflow,sublime,supabase,swift,tailwind,threejs,twitter,ts,ubuntu,vercel,vim,visualstudio,vite,vitest,vscode,windows,wordpress,yarn&perline=14" />
+</p>
+
 ---
 
 ### 📊 Estatísticas GitHub
