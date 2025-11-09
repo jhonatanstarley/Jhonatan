@@ -626,10 +626,10 @@ Entrega com<br>qualidade
   </a>
 </p>
 
-**📧 Email:** jhonatanstarley@gmail.com<br>
-**📱 WhatsApp:** +55 (22) 99781-8598<br>
-**🌐 Portfolio:** starleyinterface.com<br>
-**📍 Localização:** Brasil<br>
+- 📧 Email:** jhonatanstarley@gmail.com<br>
+- 📱 WhatsApp:** +55 (22) 99781-8598<br>
+- 🌐 Portfolio:** starleyinterface.com<br>
+- 📍 Localização:** Brasil<br>
 
 </div>
 
