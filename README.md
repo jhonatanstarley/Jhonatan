@@ -481,7 +481,7 @@ const jhonatan = {
 **🎯 Soft Skills**
 ```
 ├── Comunicação
-│   ├── ♿ Intérprete de Libras (Certificado)
+│   ├── ♿ Intérprete de Libras
 │   ├── Apresentações executivas
 │   ├── Facilitação de workshops
 │   └── Documentação clara e objetiva
@@ -524,8 +524,8 @@ const jhonatan = {
 │     └─ Data Visualization
 │
 ├─ Certificações
-│  ├─ ♿ Intérprete de Libras (Certificado)
-│  └─ Metodologias Ágeis (em progresso)
+│  ├─ ♿ Intérprete de Libras
+│  └─ Metodologias Ágeis
 │
 └─ Estudos em andamento
    ├─ PMBOK & PMP
@@ -550,7 +550,7 @@ const jhonatan = {
 
 | 🌟 Característica | 💡 Impacto |
 |:---|:---|
-| **♿ Acessibilidade** | Intérprete certificado de Libras - comprometido com inclusão |
+| **♿ Acessibilidade** | Intérprete de Libras - comprometido com inclusão |
 | **🎯 Visão Holística** | 8 anos conectando negócio, tecnologia e pessoas |
 | **🤝 Relacionamento** | Experiência com clientes de alto nível (SKY, Pirelli, Liberty) |
 | **📊 Data-Driven** | Decisões baseadas em dados e análises quantitativas |
@@ -653,7 +653,7 @@ Entrega com<br>qualidade
 ---
 
 <div align="center">
-  <sub>Feito com ❤️ e muito ☕ por Jhonatan Silva</sub>
+  <sub>Feito com ❤️ e muito ☕ por Jhonatan Starley</sub>
 </div>
 
 <div align="center">
