@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Jhonatan+Silva;Analista+de+Requisitos+Pleno;AI+Solutions+Developer;Big+Data+%26+Inteligência+Analítica;8+anos+transformando+ideias+em+soluções" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Jhonatan+Starley;Analista+de+Requisitos+Pleno;AI+Solutions+Developer;Big+Data+%26+Inteligência+Analítica;8+anos+transformando+ideias+em+soluções" alt="Typing SVG" />
 </div>
 
 <h3 align="center">🎯 Especialista em Soluções com IA | Analista de Requisitos Pleno | Big Data & Inteligência Analítica</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SEU_USER&color=00D9FF&style=flat-square&label=Visitantes" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/SEU_USER?label=Seguidores&style=flat-square&color=00D9FF" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/SEU_USER?label=Stars&style=flat-square&color=00D9FF" alt="Stars"/>
+  <img src="https://komarev.com/ghpvc/?username=jhonatanstarley &color=00D9FF&style=flat-square&label=Visitantes" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/jhonatanstarley?label=Seguidores&style=flat-square&color=00D9FF" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/jhonatanstarley?label=Stars&style=flat-square&color=00D9FF" alt="Stars"/>
 </p>
 
 <p align="center">
