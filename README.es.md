@@ -1,5 +1,3 @@
-# 🇪🇸 README.es.md COMPLETO
-
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Jhonatan+Starley;Analista+Senior+de+Requisitos;Desarrollador+de+Soluciones+IA;Big+Data+e+Inteligencia+Analítica;8+años+transformando+ideas+en+soluciones" alt="Typing SVG" />
 </div>
