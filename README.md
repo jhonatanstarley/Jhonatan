@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Jhonatan+Starley;Analista+de+Requisitos+Pleno;AI+Solutions+Developer;Big+Data+%26+Intelig%C3%AAncia+Anal%C3%ADtica;8+anos+transformando+ideias+em+solu%C3%A7%C3%B5es" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Jhonatan+Starley;Senior+Requirements+Analyst;AI+Solutions+Developer;Big+Data+%26+Analytical+Intelligence;8+years%0D%0Atransforming+ideas+into+solutions" alt="Typing SVG" />
 </div>
 
 <h3 align="center">🎯 Especialista em Soluções com IA | Analista de Requisitos Pleno | Big Data & Inteligência Analítica</h3>
