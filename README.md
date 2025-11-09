@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Jhonatan+Starley;Analista+de+Requisitos+Pleno;AI+Solutions+Developer;8+anos+de+experiência" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=jhonatanstarley;Analista+de+Requisitos+Pleno;AI+Solutions+Developer;8+anos+de+experiência" alt="Typing SVG" />
 </div>
 
 <h3 align="center">🎯 Especialista em Soluções com IA | Analista de Requisitos Pleno | Big Data & Inteligência Analítica</h3>
@@ -102,9 +102,9 @@ const jhonatan = {
 ### 🐍 Contribuições
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jhonatanstarley/jhonatanstarley/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jhonatanstarley/jhonatanstarley/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/jhonatanstarley/jhonatanstarley/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jhonatanstarley/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jhonatanstarley/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/jhonatanstarley/output/github-contribution-grid-snake.svg">
 </picture>
 
 ---
