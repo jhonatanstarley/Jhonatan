@@ -3,47 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jhonatan Starley - Analista de Requisitos Pleno | AI Solutions Developer">
     <title>Jhonatan Starley - Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-dark.min.css">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
             margin: 0;
-            padding: 20px;
+            padding: 0;
             background-color: #0d1117;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
         }
+        
         .markdown-body {
             box-sizing: border-box;
             min-width: 200px;
-            max-width: 980px;
+            max-width: 1012px;
             margin: 0 auto;
             padding: 45px;
-            background-color: #0d1117;
-            color: #c9d1d9;
+            background-color: #0d1117 !important;
+            color: #c9d1d9 !important;
         }
+        
+        /* Dark mode overrides */
+        .markdown-body h1,
+        .markdown-body h2,
+        .markdown-body h3,
+        .markdown-body h4,
+        .markdown-body h5,
+        .markdown-body h6 {
+            color: #c9d1d9 !important;
+            border-bottom-color: #21262d !important;
+        }
+        
+        .markdown-body a {
+            color: #58a6ff !important;
+        }
+        
+        .markdown-body code {
+            background-color: #161b22 !important;
+            color: #c9d1d9 !important;
+        }
+        
+        .markdown-body pre {
+            background-color: #161b22 !important;
+        }
+        
+        .markdown-body table tr {
+            background-color: #0d1117 !important;
+            border-top-color: #21262d !important;
+        }
+        
+        .markdown-body table tr:nth-child(2n) {
+            background-color: #161b22 !important;
+        }
+        
+        .markdown-body table th,
+        .markdown-body table td {
+            border-color: #21262d !important;
+        }
+        
+        .markdown-body blockquote {
+            color: #8b949e !important;
+            border-left-color: #3b434b !important;
+        }
+        
+        .markdown-body hr {
+            background-color: #21262d !important;
+        }
+        
+        .markdown-body img {
+            background-color: transparent !important;
+        }
+        
+        /* Details/Summary styling */
+        .markdown-body details {
+            background-color: #161b22;
+            border: 1px solid #21262d;
+            border-radius: 6px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+        
+        .markdown-body details summary {
+            cursor: pointer;
+            font-weight: 600;
+            color: #58a6ff;
+        }
+        
+        .markdown-body details[open] summary {
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #21262d;
+        }
+        
+        /* Loading animation */
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #58a6ff;
+            font-size: 1.5em;
+        }
+        
+        .loading::after {
+            content: '...';
+            animation: dots 1.5s steps(4, end) infinite;
+        }
+        
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60%, 100% { content: '...'; }
+        }
+        
         @media (max-width: 767px) {
             .markdown-body {
                 padding: 15px;
             }
         }
+        
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #0d1117;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #30363d;
+            border-radius: 6px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #484f58;
+        }
     </style>
 </head>
 <body>
     <div id="content" class="markdown-body">
-        Carregando...
+        <div class="loading">Carregando</div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-        // Buscar e renderizar o README.md
+        // Configurar o marked para melhor renderização
+        marked.setOptions({
+            breaks: true,
+            gfm: true,
+            headerIds: true,
+            mangle: false,
+            sanitize: false
+        });
+        
+        // Buscar e renderizar o README.md com encoding correto
         fetch('README.md')
-            .then(response => response.text())
+            .then(response => {
+                // Garantir que a resposta seja tratada como UTF-8
+                if (!response.ok) {
+                    throw new Error('Erro ao carregar README.md');
+                }
+                return response.text();
+            })
             .then(text => {
-                document.getElementById('content').innerHTML = marked.parse(text);
+                // Renderizar o markdown
+                const html = marked.parse(text);
+                document.getElementById('content').innerHTML = html;
+                
+                // Abrir todos os <details> por padrão
+                document.querySelectorAll('details').forEach(detail => {
+                    detail.setAttribute('open', '');
+                });
+                
+                // Adicionar target="_blank" para links externos
+                document.querySelectorAll('.markdown-body a').forEach(link => {
+                    if (link.hostname !== window.location.hostname) {
+                        link.setAttribute('target', '_blank');
+                        link.setAttribute('rel', 'noopener noreferrer');
+                    }
+                });
             })
             .catch(error => {
-                document.getElementById('content').innerHTML = '<h1>Erro ao carregar README</h1>';
-                console.error('Erro:', error);
+                document.getElementById('content').innerHTML = `
+                    <div style="text-align: center; padding: 60px 20px;">
+                        <h1 style="color: #f85149;">❌ Erro ao carregar o README</h1>
+                        <p style="color: #8b949e; margin-top: 20px;">
+                            Não foi possível carregar o conteúdo.<br>
+                            Por favor, tente novamente mais tarde.
+                        </p>
+                        <p style="color: #484f58; margin-top: 40px; font-size: 0.9em;">
+                            Erro técnico: ${error.message}
+                        </p>
+                        <a href="https://github.com/jhonatanstarley/Jhonatan" 
+                           style="display: inline-block; margin-top: 30px; padding: 12px 24px; 
+                                  background: #238636; color: white; text-decoration: none; 
+                                  border-radius: 6px; font-weight: 600;"
+                           target="_blank">
+                            Ver no GitHub
+                        </a>
+                    </div>
+                `;
+                console.error('Erro ao carregar README:', error);
             });
     </script>
 </body>
