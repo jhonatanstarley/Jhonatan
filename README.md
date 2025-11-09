@@ -5,7 +5,7 @@
 <h3 align="center">🎯 Especialista em Soluções com IA | Analista de Requisitos Pleno | Big Data & Inteligência Analítica</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jhonatanstarley &color=00D9FF&style=flat-square&label=Visitantes" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=jhonatanstarley&color=00D9FF&style=flat-square&label=Visitantes" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/jhonatanstarley?label=Seguidores&style=flat-square&color=00D9FF" alt="Followers"/>
   <img src="https://img.shields.io/github/stars/jhonatanstarley?label=Stars&style=flat-square&color=00D9FF" alt="Stars"/>
 </p>
