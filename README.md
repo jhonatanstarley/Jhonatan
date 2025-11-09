@@ -627,8 +627,8 @@ Entrega com<br>qualidade
 </p>
 
 **📧 Email:** jhonatanstarley@gmail.com
-**📱 WhatsApp:** +55 (22) 99781-8598  
-**🌐 Portfolio:** starleyinterface.com  
+**📱 WhatsApp:** +55 (22) 99781-8598
+**🌐 Portfolio:** starleyinterface.com
 **📍 Localização:** Brasil
 
 </div>
