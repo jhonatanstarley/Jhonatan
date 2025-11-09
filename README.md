@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Jhonatan+Silva;Analista+de+Requisitos+Pleno;AI+Solutions+Developer;Big+Data+%26+Inteligência+Analítica;8+anos+transformando+ideias+em+soluções" alt="Typing SVG" />
 </div>
