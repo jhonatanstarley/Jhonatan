@@ -20,13 +20,42 @@
             background-color: #0d1117;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
         }
-        
-        /* Language Selector */
-        .language-selector {
+
+        /* Header Controls (Resume Btn + Language Selector) */
+        .header-controls {
             position: fixed;
             top: 20px;
             right: 20px;
             z-index: 1000;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        /* Resume Button */
+        .resume-btn {
+            background: #238636;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid rgba(240, 246, 252, 0.1);
+        }
+
+        .resume-btn:hover {
+            background: #2ea043;
+            transform: translateY(-2px);
+        }
+        
+        /* Language Selector */
+        .language-selector {
             display: flex;
             gap: 10px;
             background: #161b22;
@@ -75,7 +104,7 @@
             max-width: 1012px;
             margin: 0 auto;
             padding: 45px;
-            padding-top: 80px;
+            padding-top: 100px; /* Increased to account for buttons */
             background-color: #0d1117 !important;
             color: #c9d1d9 !important;
         }
@@ -190,12 +219,18 @@
         @media (max-width: 767px) {
             .markdown-body {
                 padding: 15px;
-                padding-top: 80px;
+                padding-top: 130px; /* Extra space for stacked buttons on mobile */
             }
             
-            .language-selector {
+            .header-controls {
                 top: 10px;
                 right: 10px;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 10px;
+            }
+
+            .language-selector {
                 padding: 8px 10px;
                 gap: 5px;
             }
@@ -208,6 +243,11 @@
             .language-btn .flag-icon {
                 font-size: 18px;
             }
+
+            .resume-btn {
+                padding: 8px 12px;
+                font-size: 12px;
+            }
         }
         
         html {
@@ -216,23 +256,27 @@
     </style>
 </head>
 <body>
-    <!-- Language Selector -->
-    <div class="language-selector">
-        <button class="language-btn active" data-lang="pt" title="Português">
-            <span class="fi fi-br"></span>
-            <span>PT</span>
-        </button>
-        <button class="language-btn" data-lang="en" title="English">
-            <span class="fi fi-us"></span>
-            <span>EN</span>
-        </button>
-        <button class="language-btn" data-lang="es" title="Español">
-            <span class="fi fi-es"></span>
-            <span>ES</span>
-        </button>
+    <div class="header-controls">
+        <a id="resume-btn" href="curriculo_ptbr.html" target="_blank" class="resume-btn">
+            📄 Ver Currículo
+        </a>
+
+        <div class="language-selector">
+            <button class="language-btn active" data-lang="pt" title="Português">
+                <span class="fi fi-br"></span>
+                <span>PT</span>
+            </button>
+            <button class="language-btn" data-lang="en" title="English">
+                <span class="fi fi-us"></span>
+                <span>EN</span>
+            </button>
+            <button class="language-btn" data-lang="es" title="Español">
+                <span class="fi fi-es"></span>
+                <span>ES</span>
+            </button>
+        </div>
     </div>
 
-    <!-- Content -->
     <div id="content" class="markdown-body">
         <div class="loading">Carregando</div>
     </div>
@@ -256,6 +300,27 @@
             // Mapear códigos de idioma
             const supportedLangs = ['pt', 'en', 'es'];
             return supportedLangs.includes(langCode) ? langCode : 'pt';
+        }
+
+        // Atualizar Botão do Currículo
+        function updateResumeButton(lang) {
+            const resumeBtn = document.getElementById('resume-btn');
+            
+            switch(lang) {
+                case 'en':
+                    resumeBtn.href = 'curriculo_en.html';
+                    resumeBtn.innerHTML = '📄 View Resume';
+                    break;
+                case 'es':
+                    resumeBtn.href = 'curriculo_es.html';
+                    resumeBtn.innerHTML = '📄 Ver Currículum';
+                    break;
+                case 'pt':
+                default:
+                    resumeBtn.href = 'curriculo_ptbr.html';
+                    resumeBtn.innerHTML = '📄 Ver Currículo';
+                    break;
+            }
         }
 
         // Carregar README baseado no idioma
@@ -295,8 +360,9 @@
                     // Salvar preferência
                     localStorage.setItem('preferredLanguage', lang);
                     
-                    // Atualizar botões
+                    // Atualizar botões UI
                     updateLanguageButtons(lang);
+                    updateResumeButton(lang);
                 })
                 .catch(error => {
                     console.error('Erro ao carregar README:', error);
