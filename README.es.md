@@ -14,7 +14,7 @@
   <a href="https://linkedin.com/in/jhonatanstarley"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:jhonatanstarley@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://wa.me/5522997818598"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-  <a href="https://starleyinterface.com"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
+  <a href="https://sutari.com.br"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
 </p>
 
 ---
@@ -627,14 +627,14 @@ Entrega con<br>calidad
   <a href="https://wa.me/5522997818598">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
   </a>
-  <a href="https://starleyinterface.com">
+  <a href="https://sutari.com.br">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
 </p>
 
 **📧 Email:** jhonatanstarley@gmail.com  
 **📱 WhatsApp:** +55 (22) 99781-8598  
-**🌐 Portfolio:** starleyinterface.com  
+**🌐 Portfolio:** sutari.com.br  
 **📍 Ubicación:** Brasil
 
 </div>
