@@ -24,7 +24,7 @@
 ```
 const jhonatan = {
     role: "Senior Requirements Analyst",
-    experience: "~8 years",
+    experience: "~9 years",
     education: {
         studying: "Big Data and Analytical Intelligence",
         studyAreas: ["Data Science", "Machine Learning", "Analytics"]
@@ -557,7 +557,7 @@ const jhonatan = {
 | 🌟 Characteristic | 💡 Business Impact |
 |:---|:---|
 | **♿ Accessibility** | Sign Language Interpreter - committed to inclusion |
-| **🎯 Holistic Vision** | 8 years connecting business, technology, and people |
+| **🎯 Holistic Vision** | 9+ years connecting business, technology, and people |
 | **🤝 Relationships** | Experience with high-level clients (SKY, Pirelli, Liberty) |
 | **📊 Data-Driven** | Decisions based on data and quantitative analysis |
 | **🚀 Innovation** | AI and automation application to solve real problems |

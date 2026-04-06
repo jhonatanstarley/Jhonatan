@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Jhonatan+Starley;Senior+Requirements+Analyst;AI+Solutions+Developer;Big+Data+%26+Analytical+Intelligence;8+years%0D%0Atransforming+ideas+into+solutions" alt="Typing SVG" />
 </div>
 
-<h3 align="center">🎯 Especialista em Soluções com IA | Analista de Requisitos Pleno | Big Data & Inteligência Analítica</h3>
+<h3 align="center">🎯 Especialista em Soluções com IA | Analista de Requisitos Sênior | Big Data & Inteligência Analítica</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=jhonatanstarley&color=00D9FF&style=flat-square&label=Visitantes" alt="Profile Views"/>
@@ -23,8 +23,8 @@
 
 ```javascript
 const jhonatan = {
-    cargo: "Analista de Requisitos Pleno",
-    experiencia: "~8 anos",
+    cargo: "Analista de Requisitos Sênior",
+    experiencia: "~9 anos",
     educacao: {
         cursando: "Big Data e Inteligência Analítica",
         areas_estudo: ["Data Science", "Machine Learning", "Analytics"]
@@ -557,7 +557,7 @@ const jhonatan = {
 | 🌟 Característica | 💡 Impacto |
 |:---|:---|
 | **♿ Acessibilidade** | Intérprete de Libras - comprometido com inclusão |
-| **🎯 Visão Holística** | 8 anos conectando negócio, tecnologia e pessoas |
+| **🎯 Visão Holística** | 9+ anos conectando negócio, tecnologia e pessoas |
 | **🤝 Relacionamento** | Experiência com clientes de alto nível (SKY, Pirelli, Liberty) |
 | **📊 Data-Driven** | Decisões baseadas em dados e análises quantitativas |
 | **🚀 Inovação** | Aplicação de IA e automação para resolver problemas reais |

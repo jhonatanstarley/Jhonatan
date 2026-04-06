@@ -24,7 +24,7 @@
 ```
 const jhonatan = {
     cargo: "Analista Senior de Requisitos",
-    experiencia: "~8 años",
+    experiencia: "~9 años",
     educacion: {
         cursando: "Big Data e Inteligencia Analítica",
         areasEstudio: ["Data Science", "Machine Learning", "Analytics"]
@@ -557,7 +557,7 @@ const jhonatan = {
 | 🌟 Característica | 💡 Impacto |
 |:---|:---|
 | **♿ Accesibilidad** | Intérprete de Lengua de Señas - comprometido con la inclusión |
-| **🎯 Visión Holística** | 8 años conectando negocio, tecnología y personas |
+| **🎯 Visión Holística** | 9+ años conectando negocio, tecnología y personas |
 | **🤝 Relaciones** | Experiencia con clientes de alto nivel (SKY, Pirelli, Liberty) |
 | **📊 Data-Driven** | Decisiones basadas en datos y análisis cuantitativos |
 | **🚀 Innovación** | Aplicación de IA y automatización para resolver problemas reales |
